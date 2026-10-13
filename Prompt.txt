@@ -1,0 +1,124 @@
+Tutorial: 
+	basic:  Claude : https://www.youtube.com/watch?v=9oJySubZRSA 
+	basic: using OpenAI for developer
+	Asp.net core with LLM: https://www.youtube.com/watch?v=j1OJwF7Ehec&t=383s
+	Git Hub with Visual Studio: https://www.youtube.com/watch?v=9hZsOeIINg8&t=373s
+	General: https://www.youtube.com/watch?v=uwA3MMYBfAQ&t=70s
+	Programming with Mosh: https://www.youtube.com/watch?v=sTeoEFzVNSc
+Doc: 
+	1. CHAT GPT url 1 : https://chatgpt.com/g/g-p-6ac8863ad4788191b8a4e6ad0b3ef036-prompt/c/6ac7da6c-5584-83e8-be35-7cac5f4510d1
+	2. CHAT GPT url 2 : https://chatgpt.com/share/6ac88dd8-ec54-83e8-b50c-8971e66f0dce
+	3. Git hub https://github.com/VoloBuilds/prompts/blob/main/ultimate-coding-prompt-guide.md
+
+full course: https://skillleap.futurepedia.io/courses/take/14-day-ai-boot-camp/lessons/59107106-day-1-introduction-to-generative-ai?utm_source=youtube&utm_medium=volo-direct&utm_campaign=ai-coding
+Channel: VoloBuilds https://www.youtube.com/@VoloBuilds/playlists
+
+New ChatBoat: https://www.perplexity.ai/
+
+ONE
+## Role
+Senior software enginer Asp.net core/mssql/angular.
+
+## Task
+Investigate the performance issue.
+
+
+## Requirements
+- Identify the root cause.
+- Explain why it happens.
+- Suggest an optimized solution.
+- Do not change behaviour of business logic and code.
+
+##Code:
+[GetDebtors.sql]
+
+INVESTIGATION
+
+
+One
+## Role
+Senior software enginer Asp.net core/mssql/angular.
+
+## Task
+Investigate the performance issue.
+
+
+## Requirements
+- Identify the root cause.
+- Explain why it happens.
+- Suggest an optimized solution.
+- Do not change behaviour of business logic and code.
+
+##Code:
+[GetDebtors.sql]
+
+Two
+Asking for solution: 
+
+Role: Act as a Senior .NET Backend Engineer.
+
+Task: - Fix this The query scans and filters the invoice data twice. 
+      - Fix this code Optional filters and the search predicate can prevent efficient plans. 
+      - Fix this Lead-owner aggregation may process more rows than necessary
+      - Fix this Pagination Problem 
+      - After data return delete cache data 
+Tech Constraints:
+     - No Change Current Business behavior 
+
+##Code:
+[GetDebtors.sql]
+
+Output: - Dicress memory use
+        - Duplicate Join reduce
+
+Three
+ Compare the two query 
+Task: - Investigate the performance issue.
+Tech Constraints:
+     - No Change Current Business behavour 
+
+##Code:
+[invoice-debtor.sql] && [GetDebtors.sql]
+
+Output: - Select which one is the best
+
+
+
+
+--- Quickbook live support
+
+Need Sql Update Query
+as per mey Select Query
+select i.Id,i.InvoiceName,i.InvoiceNo,i.QboInvoiceId,d.ProductServiceName,d.FkVatId,d.VatRate from payment.InvoiceAndCreditNotes i inner join payment.InvoiceAndCreditNoteDetails d on i.Id = d.FkInvoiceAndCreditNoteId where i.RStatus = 1 and d.FkVatId is null
+
+
+
+Need to Scooty list
+
+# Requirement 
+-110-125cc
+-Japani brand
+-if have to abs is good
+-price max 160000
+
+Find the best scooters that match my requirements and compare their features.
+
+# Requirement 
+- Engine capacity: 110-125cc
+- Brand: Japanese brands only, such as Honda, Yamaha, and Suzuki
+- Budget: Maximum ৳160,000 BDT
+- ABS: Preferred, but not mandatory
+-Condition: Brand-new scooters
+
+Market: Bangladesh
+
+
+
+
+I'm non screm master , i want to know diffrent between CSM and PSM
+
+
+I'm poor to understanding english listing and writing as well ; csm is convenient for me
+
+
+as a training candidate, add a note in registration from "I'm interested in learning CSM for my knowledge and skills. I hope this course helps me become a certified screm master " refacot this
